@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.onlineshoppingmanagement.Adapters.CategoryAdapter
+import com.example.onlineshoppingmanagement.Adapters.CustomerAdapter
 import com.example.onlineshoppingmanagement.databinding.FragmentCustomerBinding
 
 
@@ -18,7 +19,7 @@ class CustomerFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentCustomerBinding.inflate(inflater,container,false)
         val myData = DatabaseFunctions().callCustomerDataFuntion()
-        val arrayAdapter = CategoryAdapter(requireContext(), myData)
+        val arrayAdapter = CustomerAdapter(requireContext(), myData)
         binding.customersTable.adapter = arrayAdapter
 
         return binding.root
