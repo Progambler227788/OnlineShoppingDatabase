@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvId"
+        style="@style/SmallTextViewStyle"
+        android:text="tvId"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/SmallTextViewStyle"
+        android:text="tvName"
+       />
+
+    <TextView
+        android:id="@+id/tvDOB"
+        style="@style/SmallTextViewStyle"
+        android:text="tvDOB"
+      />
+
+    <TextView
+        android:id="@+id/tvDesginId"
+        android:text="tvDesginId"
+        style="@style/SmallTextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvDeptId"
+        android:text="tvDeptId"
+        style="@style/SmallTextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvSuperVisorId"
+        android:text="tvSuperVisorId"
+        style="@style/SmallTextViewStyle" />
+</LinearLayout>
