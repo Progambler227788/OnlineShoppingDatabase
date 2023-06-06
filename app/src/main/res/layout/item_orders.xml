@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvOrderID"
-        style="@style/SmallTextViewStyle"
-        android:text="tvOrderID"
-        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvOrderDate"
-        style="@style/SmallTextViewStyle"
-        android:text="tvOrderDate"
-        />
+        <TextView
+            android:id="@+id/tvOrderID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvOrderID"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvDeliveryCharges"
-        style="@style/SmallTextViewStyle"
-        android:text="tvDeliveryCharges"
-        />
+        <TextView
+            android:id="@+id/tvOrderDate"
+            style="@style/SmallTextViewStyle"
+            android:text="tvOrderDate"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvOrderStatus"
-        style="@style/SmallTextViewStyle"
-        android:text="tvOrderStatus"
-        />
+        <TextView
+            android:id="@+id/tvDeliveryCharges"
+            style="@style/SmallTextViewStyle"
+            android:text="tvDeliveryCharges"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvDiscountCoupon"
-        style="@style/SmallTextViewStyle"
-        android:text="tvDiscountCoupon"
-        />
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            style="@style/SmallTextViewStyle"
+            android:text="tvOrderStatus"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvPaymentOID"
-        style="@style/SmallTextViewStyle"
-        android:text="tvPaymentOID"
-        />
+        <TextView
+            android:id="@+id/tvDiscountCoupon"
+            style="@style/SmallTextViewStyle"
+            android:text="tvDiscountCoupon"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvEmpOID"
-        style="@style/SmallTextViewStyle"
-        android:text="tvEmpOID"
-        />
+        <TextView
+            android:id="@+id/tvPaymentOID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPaymentOID"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvCtOID"
-        style="@style/SmallTextViewStyle"
-        android:text="tvCtOID"
-        />
+        <TextView
+            android:id="@+id/tvEmpOID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvEmpOID"
+            android:layout_weight="1" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/tvCtOID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvCtOID"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+</TableLayout>

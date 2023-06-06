@@ -1,46 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvPrId"
-        style="@style/SmallTextViewStyle"
-        android:text="tvPrId"
-        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvPrName"
-        style="@style/SmallTextViewStyle"
-        android:text="tvPrName"
-       />
-    <TextView
-        android:id="@+id/tvPrBrand"
-        style="@style/SmallTextViewStyle"
-        android:text="tvPrBrand"
-      />
+        <TextView
+            android:id="@+id/tvPrId"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrId"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvPrDescription"
-        android:text="tvPrDescription"
-        style="@style/SmallTextViewStyle" />
+        <TextView
+            android:id="@+id/tvPrName"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrName"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvPrGender"
-        android:text="tvPrGender"
-        style="@style/SmallTextViewStyle" />
+        <TextView
+            android:id="@+id/tvPrBrand"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrBrand"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/tvPrPrice"
-        android:text="tvSuperVisorId"
-        style="@style/SmallTextViewStyle" />
-    <TextView
-        android:id="@+id/tvPrVendorID"
-        android:text="tvPrVendorId"
-        style="@style/SmallTextViewStyle" />
-    <TextView
-        android:id="@+id/tvPrCartID"
-        android:text="tvPrCartId"
-        style="@style/SmallTextViewStyle" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/tvPrDescription"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrDescription"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvPrGender"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrGender"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvPrPrice"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrPrice"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvPrVendorID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrVendorID"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvPrCartID"
+            style="@style/SmallTextViewStyle"
+            android:text="tvPrCartID"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+</TableLayout>
