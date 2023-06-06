@@ -23,8 +23,8 @@ class CategoryFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         binding =  FragmentCategoryBinding.inflate(inflater, container, false)
-        val mydata = DatabaseFunctions().callCategoryDataFuntion()
-        val arrayAdapter = CategoryAdapter(requireContext(), mydata)
+        val myData  = DatabaseFunctions().callCategoryDataFuntion()
+        val arrayAdapter = CategoryAdapter(requireContext(), myData )
         binding.categoryTable.adapter = arrayAdapter
 
         return binding.root

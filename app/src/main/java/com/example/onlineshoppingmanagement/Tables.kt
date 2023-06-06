@@ -24,8 +24,8 @@ class Tables : AppCompatActivity() {
         binding = ActivityTablesBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val tables = arrayOf( "Category",
-            "Customer", "CustomerPhone", "Employee", "Offer", "OrderedProduct",
-            "Orders", "paymentMethod", "ProductOffer", "Product", "Vendor"
+            "Customers", "CustomerPhones", "Employees", "Offers", "OrderedProducts",
+            "Orders", "paymentMethods", "ProductOffers", "Products", "Vendors"
         )
         val adapter = TableAdapter(this, tables)
         binding.tables.adapter = adapter

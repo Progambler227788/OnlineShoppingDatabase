@@ -15,6 +15,19 @@ class ShowFragments : AppCompatActivity() {
         if(data=="Category"){
             replaceFragment(CategoryFragment())
         }
+        else if( data == "Orders"){
+            replaceFragment(OrdersFragment())
+        }
+        else if( data == "Employees"){
+            replaceFragment(EmployeeFragment())
+        }
+        else if( data == "Products"){
+            replaceFragment(ProductFragment())
+        }
+
+        else if( data == "Customers"){
+            replaceFragment(CustomerFragment())
+        }
 
     }
     private fun replaceFragment(fragment : Fragment){

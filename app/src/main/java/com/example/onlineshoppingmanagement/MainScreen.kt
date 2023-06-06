@@ -3,8 +3,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.onlineshoppingmanagement.databinding.ActivityMainScreenBinding
-import java.sql.ResultSet
-import java.sql.Statement
+/*import java.sql.ResultSet
+import java.sql.Statement */
 
 class MainScreen : AppCompatActivity(){
     private lateinit var binding : ActivityMainScreenBinding
@@ -16,29 +16,29 @@ class MainScreen : AppCompatActivity(){
             startActivity(Intent(this,Tables::class.java))
         }
 
-        binding.btnTable2.setOnClickListener {
-          val connection = ConnectToDatabaseTask().connectToServer()
-          if(connection!=null){
-                val query = "SELECT cartName FROM category"
-                val statement: Statement = connection.createStatement()
-                val result: ResultSet = statement.executeQuery(query)
-                val stringBuilder = StringBuilder()
-                while (result.next()) {
-                    val cartName = result.getString("cartName")
-                    stringBuilder.append(cartName).append("\n")
-                }
-
-                val resultText = stringBuilder.toString()
-                binding.tvData.text = resultText
-
-                // Close the database connection and statement
-                result.close()
-                statement.close()
-                connection.close()
-
-
-            }
-        }
+//        binding.btnTable2.setOnClickListener {
+//          val connection = ConnectToDatabaseTask().connectToServer()
+//          if(connection!=null){
+//                val query = "SELECT cartName FROM category"
+//                val statement: Statement = connection.createStatement()
+//                val result: ResultSet = statement.executeQuery(query)
+//                val stringBuilder = StringBuilder()
+//                while (result.next()) {
+//                    val cartName = result.getString("cartName")
+//                    stringBuilder.append(cartName).append("\n")
+//                }
+//
+//                val resultText = stringBuilder.toString()
+//                binding.tvData.text = resultText
+//
+//                // Close the database connection and statement
+//                result.close()
+//                statement.close()
+//                connection.close()
+//
+//
+//            }
+//        }
     }
 
     }

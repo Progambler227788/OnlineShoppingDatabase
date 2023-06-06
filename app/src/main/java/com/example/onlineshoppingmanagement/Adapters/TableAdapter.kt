@@ -16,26 +16,8 @@ class TableAdapter(context: Context, private val tables: Array<String>) : ArrayA
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val view = super.getView(position, convertView, parent) // to create a view
-        val buttonInsert = view.findViewById<Button>(R.id.buttonInsert)
-        val buttonUpdate = view.findViewById<Button>(R.id.buttonUpdate)
-        val buttonDelete = view.findViewById<Button>(R.id.buttonDelete)
         val buttonShow = view.findViewById<Button>(R.id.buttonShow)
-
-        // Set click listeners for the buttons
-        buttonInsert.setOnClickListener {
-            // Handle insert button click
-            handleInsertButtonClick(position)
-        }
-
-        buttonUpdate.setOnClickListener {
-            // Handle update button click
-            handleUpdateButtonClick(position)
-        }
-
-        buttonDelete.setOnClickListener {
-            // Handle delete button click
-            handleDeleteButtonClick(position)
-        }
+        // Set click listener for the show button only
 
         buttonShow.setOnClickListener {
             // Handle show button click
@@ -44,27 +26,27 @@ class TableAdapter(context: Context, private val tables: Array<String>) : ArrayA
 
         return view
     }
-
-    private fun handleInsertButtonClick(position: Int) {
-        // Perform the necessary action when the insert button is clicked for the item at the given position
-        val tableName = tables[position]
-        Toast.makeText(context, "Insert button clicked for table: $tableName", Toast.LENGTH_SHORT)
-            .show()
-
-
-
-    }
-    private fun handleUpdateButtonClick(position: Int) {
-        // Perform the necessary action when the update button is clicked for the item at the given position
-        val tableName = tables[position]
-        Toast.makeText(context, "Update button clicked for table: $tableName", Toast.LENGTH_SHORT).show()
-    }
-
-    private fun handleDeleteButtonClick(position: Int) {
-        // Perform the necessary action when the delete button is clicked for the item at the given position
-        val tableName = tables[position]
-        Toast.makeText(context, "Delete button clicked for table: $tableName", Toast.LENGTH_SHORT).show()
-    }
+//
+//    private fun handleInsertButtonClick(position: Int) {
+//        // Perform the necessary action when the insert button is clicked for the item at the given position
+//        val tableName = tables[position]
+//        Toast.makeText(context, "Insert button clicked for table: $tableName", Toast.LENGTH_SHORT)
+//            .show()
+//
+//
+//
+//    }
+//    private fun handleUpdateButtonClick(position: Int) {
+//        // Perform the necessary action when the update button is clicked for the item at the given position
+//        val tableName = tables[position]
+//        Toast.makeText(context, "Update button clicked for table: $tableName", Toast.LENGTH_SHORT).show()
+//    }
+//
+//    private fun handleDeleteButtonClick(position: Int) {
+//        // Perform the necessary action when the delete button is clicked for the item at the given position
+//        val tableName = tables[position]
+//        Toast.makeText(context, "Delete button clicked for table: $tableName", Toast.LENGTH_SHORT).show()
+//    }
 
     private fun handleShowButtonClick(position: Int) {
         // Perform the necessary action when the show button is clicked for the item at the given position
