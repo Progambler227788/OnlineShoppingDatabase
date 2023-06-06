@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvOrderID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOrderID"
+        />
+
+    <TextView
+        android:id="@+id/tvOrderDate"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOrderDate"
+        />
+
+    <TextView
+        android:id="@+id/tvDeliveryCharges"
+        style="@style/SmallTextViewStyle"
+        android:text="tvDeliveryCharges"
+        />
+
+    <TextView
+        android:id="@+id/tvOrderStatus"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOrderStatus"
+        />
+
+    <TextView
+        android:id="@+id/tvDiscountCoupon"
+        style="@style/SmallTextViewStyle"
+        android:text="tvDiscountCoupon"
+        />
+
+    <TextView
+        android:id="@+id/tvPaymentOID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvPaymentOID"
+        />
+
+    <TextView
+        android:id="@+id/tvEmpOID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvEmpOID"
+        />
+
+    <TextView
+        android:id="@+id/tvCtOID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvCtOID"
+        />
+
+</LinearLayout>

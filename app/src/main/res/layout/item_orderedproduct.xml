@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvOpID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOpID"
+        />
+
+    <TextView
+        android:id="@+id/tvOproductQuantity"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOproductQuantity"
+        />
+
+    <TextView
+        android:id="@+id/tvOpOrderID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOpOrderID"
+        />
+
+    <TextView
+        android:id="@+id/tvOpProductID"
+        style="@style/SmallTextViewStyle"
+        android:text="tvOpProductID"
+        />
+
+
+</LinearLayout>

@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
-        android:id="@+id/tvDesginationId"
+        android:id="@+id/tvProductOfferId"
         style="@style/SmallTextViewStyle"
-        android:text="tvDesginationId"
+        android:text="tvProductOfferId"
         />
 
     <TextView
-        android:id="@+id/tvDesginationName"
+        android:id="@+id/tvOfferId"
         style="@style/SmallTextViewStyle"
-        android:text="tvDesginationName"
+        android:text="tvOfferId"
         />
 
     <TextView
-        android:id="@+id/tvDesginationSalary"
-        android:text="tvDesginationSalary"
-        style="@style/SmallTextViewStyle" />
+        android:id="@+id/tvProductId"
+        style="@style/SmallTextViewStyle"
+        android:text="tvProductId"
+        />
+
 
 </LinearLayout>

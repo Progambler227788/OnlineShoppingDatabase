@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tvDesginationId"
+        android:id="@+id/tvPhoneNumber"
         style="@style/SmallTextViewStyle"
-        android:text="tvDesginationId"
+        android:text="tvPhoneNumbe"
         />
-
     <TextView
-        android:id="@+id/tvDesginationName"
+        android:id="@+id/tvCTID"
         style="@style/SmallTextViewStyle"
-        android:text="tvDesginationName"
+        android:text="tvCTID"
         />
-
-    <TextView
-        android:id="@+id/tvDesginationSalary"
-        android:text="tvDesginationSalary"
-        style="@style/SmallTextViewStyle" />
 
 </LinearLayout>

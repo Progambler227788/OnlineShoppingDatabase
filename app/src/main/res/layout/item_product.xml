@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPrId"
+        style="@style/SmallTextViewStyle"
+        android:text="tvPrId"
+        />
+
+    <TextView
+        android:id="@+id/tvPrName"
+        style="@style/SmallTextViewStyle"
+        android:text="tvPrName"
+       />
+    <TextView
+        android:id="@+id/tvPrBrand"
+        style="@style/SmallTextViewStyle"
+        android:text="tvPrBrand"
+      />
+
+    <TextView
+        android:id="@+id/tvPrDescription"
+        android:text="tvPrDescription"
+        style="@style/SmallTextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvPrGender"
+        android:text="tvPrGender"
+        style="@style/SmallTextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvPrPrice"
+        android:text="tvSuperVisorId"
+        style="@style/SmallTextViewStyle" />
+    <TextView
+        android:id="@+id/tvPrVendorID"
+        android:text="tvPrVendorId"
+        style="@style/SmallTextViewStyle" />
+    <TextView
+        android:id="@+id/tvPrCartID"
+        android:text="tvPrCartId"
+        style="@style/SmallTextViewStyle" />
+</LinearLayout>
