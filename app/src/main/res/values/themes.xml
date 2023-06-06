@@ -16,9 +16,9 @@
     </style>
 
     <style name="SmallTextViewStyle" parent="@android:style/Widget.TextView">
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">3sp</item>
+        <item name="android:layout_margin">20sp</item>
     </style>
 </resources>

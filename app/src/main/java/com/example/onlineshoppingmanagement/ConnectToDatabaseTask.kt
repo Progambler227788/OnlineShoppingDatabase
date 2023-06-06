@@ -10,8 +10,8 @@ import java.sql.SQLException
 import android.os.StrictMode
 
 class ConnectToDatabaseTask {
-   // private val ip ="192.168.100.9"
-    private val ip ="192.168.43.157"
+    private val ip ="192.168.100.9"
+  //  private val ip ="192.168.43.157"
     private val port = 1433
     private val db = "OnlineShoppingManagementSystem"
     private val uname= "talha"
